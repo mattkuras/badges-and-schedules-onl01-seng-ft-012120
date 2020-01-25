@@ -16,7 +16,14 @@ speakers.each_with_index {|speaker, index|
   new_arr
 end 
 
+<<<<<<< HEAD
 def printer(speakers)
   batch_badge_creator(speakers).each {|name| puts name}
   assign_rooms(speakers).each{|name| puts name}
 end
+=======
+def printer(arr, new_arr)
+  arr.each {|i| puts "#{i}"}
+  new_arr.each {|i| puts "#{i}"}
+end
+>>>>>>> 042d1d823e08bf57adbcb42cf9d5b7968b3296f5
